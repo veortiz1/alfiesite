@@ -1,0 +1,142 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to left, #080808, #464747);
+
+}
+#web{
+    text-align: center;
+    text-shadow: 0px 0px 25px rgb(255, 255, 255);
+    font-size: clamp(1rem,3vw,3rem);
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bio{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75vw;
+    padding: 3vw;
+    border: .5vw solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    box-shadow: 0 0 25px white;
+    background: linear-gradient(to left, #080808, #464747);
+
+}
+
+.bio a{
+    text-decoration: none;
+    color: black;
+    padding: 1vw;
+    border:.25vw,solid,white;
+    background-color: white;
+    border-radius: 10px;
+    text-shadow: 0px 0px 10px black;
+    box-shadow: 0 0 15px white;
+    font-size: clamp(8px,1.5vw,1rem);
+}
+
+
+.title{
+    color: white;
+    font-size: clamp(1rem,2vw,2rem);
+}
+
+.body{
+    color: white;
+    font-size: clamp(8px,1.5vw,1rem);
+
+}
+
+.role{
+    display: flex;
+    flex-direction: column;
+}
+.roles p{
+    font-size: clamp(8px,1.5vw,1rem);
+    color: white;
+}
+.roles a{
+    background: red;
+    color: white;
+    font-size: 10px;
+    padding:5px;
+    box-shadow: 0 0 17px red;
+    font-size: clamp(8px,1.5vw,1rem);
+    
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+#none{
+    border: none;
+    box-shadow: none;
+
+    background: none;
+
+}
+
+
+
+.socials img{
+    width: 7vw;
+    height: 7vw;
+    filter: none;
+}
+.socials a{
+   background:none;
+   box-shadow: none;
+   border: none;
+}
+
+#slideshow{
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+.slides img{
+   height: 40vw;
+   border-radius: 20px;
+   border: .5vw solid rgb(255, 255, 255);
+  
+   box-shadow: 0 0 25px white;
+}
+
+.buttons{
+    display: flex;
+    gap: 5vw;
+   
+}
+.buttons button{
+    width: 20vw;
+    border: 10px solid white;
+    background-color: black;
+    border-radius: 25px;
+    border: .2vw solid rgb(255, 255, 255);
+    box-shadow: 0 0 25px white;
+    color: white;
+    padding: .5vw;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#contact{
+    color: white;
+}
+
+#contact1{
+    color: white;
+}
